@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+body {
+    padding: 25px 50px 50px;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.card {
+    position: relative;
+}
+
+.vertical-text {
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+section > * {
+    margin-bottom: 10px;
+}
+
+p {
+    max-width: 35ch;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media (min-width: 321px) and (max-width: 426px){
+    .card:nth-of-type(even){
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1400px){
+    .picture-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        align-items: center;
+        gap: 25px;
+    }
+
+    .card:nth-of-type(even){
+        margin-top: 50px;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 1400px){
+
+    body {
+        padding: 100px;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-start;
+    }
+    
+    .margin-top {
+        margin-top: 25%;
+    }
+
+    .picture-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 100px;
+    }
+
+    .vertical-text {
+        margin-right: -40px;
+    }
+
+}
