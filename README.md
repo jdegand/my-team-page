@@ -10,7 +10,7 @@
       Live Link
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
+    <a href="https://web.archive.org/web/20240526064315/https://legacy.devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
     </a>
   </h3>
@@ -24,9 +24,9 @@
 
 ## Overview
 
-![](my-team-page-desktop.png)
+![Desktop](my-team-page-desktop.png)
 
-![](my-team-page-mobile.png)
+![Mobile](my-team-page-mobile.png)
 
 ### Built With
 
@@ -35,4 +35,4 @@
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://web.archive.org/web/20240526064315/https://legacy.devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
